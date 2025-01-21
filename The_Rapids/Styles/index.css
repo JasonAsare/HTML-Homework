@@ -1,0 +1,56 @@
+:root{
+    --primary-color:rgb(255, 32, 32);
+    --secondary-color:white;
+    --accent-color1: rgb(68, 194, 236);
+    --accent-color2: rgb(0, 0, 113);
+    --font-heading: 'Montserrat',sans-serif;
+}
+
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+header .logo{
+    width: 70px;
+}
+
+header nav a{
+    text-decoration: none;
+    color: var(--accent-color1);
+    margin-right: 20px;
+    font-family: var(--font-heading);
+    font-weight: 700;
+}
+
+.hero .pic{
+    width: 100%;
+    position: relative;
+}
+
+.hero h1{
+    position: absolute;
+    top: 40%;
+    left: 40%;
+    color: var(--secondary-color);
+    background-color: rgba(0,0,0,0.5);
+    font-family: var(--font-heading);
+}
+
+.hero article{
+    position: absolute;
+    top: 50%;
+    max-width: 700px;
+    left: 20%;
+    color: var(--secondary-color);
+    background-color: rgba(0,0,0,0.8);
+    font-family: var(--font-heading);
+    font-weight: 500;
+}
